@@ -11,7 +11,9 @@ https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/3b1fbc50-e139
 ### Project 1.2
 Date: 2023-09-20
 #### Setup
+![image](https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/f748141f-807a-442b-809f-82e330ef8f31)
 #### Video
+https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/80c28b0f-33e5-4572-b0fd-faf278266253
 
 ### Project 2.1
 Date: 2023-09-20
