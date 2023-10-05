@@ -32,6 +32,8 @@
     <a href="#A2">Project 2</a><br>
     <a href="#A3">Project 3</a><br>
     <a href="#A4">Project 4</a><br>
+    <a href="#A5">Project 5</a><br>
+    <a href="#A6">Project 6</a><br>
     
     <h2 id="T">Tutorials</h2>
     <h3 id="T1.1">Project 1.1: Blink</h3>
@@ -308,6 +310,95 @@
     <h4>Video</h4>
     <div class="fit-box">
       <video class="fit_screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/4bf94b2c-1ba3-4c75-bef3-5f5280110949" controls="controls"></video>
+    </div>
+
+    <h3 id="A5">Project 5: Song Generator</h3>
+    <p>Date: 2023-09-27</p>
+    <p>
+      This assignment involves playing songs using a passive buzzer.
+      Buzzers need transistors to amplify the current provided to them, which is easy to wire incorrectly.
+      Another challenge in this lab was to translate notes into frequencies for the buzzer to use.
+      This becomes fairly straightforward if one uses mathematics to calculate the frequencies.
+      Each note is separated by a twelfth root of two, and A4 is 440 Hz.
+    </p>
+    <h4>Hardware Components</h4>
+    <ol>
+      <li>ESP32 WROVER (x1)</li>
+      <li>GPIO Extension Board (x1)</li>
+      <li>Breadboard (x1)</li>
+      <li>RGBLED (x1)</li>
+      <li>Push Button (x2)</li>
+      <li>Passive Buzzer (x1)</li>
+      <li>NPN Transistor (x1)</li>
+      <li>Resistor, 220 Ω (x1)</li>
+      <li>Resistor, 1 kΩ (x1)</li>
+      <li>Resistor, 10 kΩ (x4)</li>
+      <li>Jumper M/M (x8)</li>
+    </ol>
+    <h4>Circuit Diagrams</h4>
+    <div class="fit-box">
+      <img class="fit-screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/7f9b35ac-c14a-458a-a757-5267776e18fd">
+    </div>
+    <h4>Breadboard View</h4>
+    <div class="fit-box">
+      <img class="fit-screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/cee7037c-cdf0-4e4f-a5eb-9e31efa84f63">
+    </div>
+    <h4>Breadboard Photo</h4>
+    <div class="fit-box">
+      <img class="fit-screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/254b8765-bf83-40f5-a1c1-d573e78dd69b">
+    </div>
+    <h4>Source Code</h4>
+    <p>See file attached on Moodle.</p>
+    <h4>Video</h4>
+    <div class="fit-box">
+      <video class="fit_screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/50968e19-883c-478d-9c4f-dde920856d3a" controls="controls"></video>
+    </div>
+
+    <h3 id="A6">Project 6: UART Serial Connection</h3>
+    <p>Date: 2023-10-05</p>
+    <p>
+      This assignment involves connecting two ESP32 units together using a serial connection.
+      It serves as a basic introduction to device intercommunication.
+      As a team of two, we were tasked with playing a sound and lighting up LEDs when recieving
+      a signal from the other ESP32.
+      The signal is sent with a button and sent over RX and TX cables, with an extra ground cable.
+    </p>
+    <h4>Hardware Components</h4>
+    <ol>
+      <li>ESP32 WROVER (x1)</li>
+      <li>GPIO Extension Board (x1)</li>
+      <li>Breadboard (x1)</li>
+      <li>RGBLED (x2)</li>
+      <li>Push Button (x1)</li>
+      <li>Active Buzzer (x1)</li>
+      <li>NPN Transistor (x1)</li>
+      <li>Resistor, 220 Ω (x2)</li>
+      <li>Resistor, 1 kΩ (x1)</li>
+      <li>Resistor, 10 kΩ (x2)</li>
+      <li>Jumper M/M (x13)</li>
+    </ol>
+    <h4>Circuit Diagrams</h4>
+    <div class="fit-box">
+      <img class="fit-screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/cc5e3937-f240-43e3-bb29-8f32fe54bb9a">
+    </div>
+    <h4>Breadboard View</h4>
+    <div class="fit-box">
+      <img class="fit-screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/46471c6f-cee8-4a02-87e3-f20343dd0ac0">
+    </div>
+    <h4>Breadboard Photo</h4>
+    <p>My Board:</p>
+    <div class="fit-box">
+      <img class="fit-screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/3e010a7c-730b-476e-89f3-58662b05c00a">
+    </div>
+    <p>My Teammate's Board:</p>
+    <div class="fit-box">
+      <img class="fit-screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/414c5c37-939a-4cf6-8a1a-9209ecdd70e6">
+    </div>
+    <h4>Source Code</h4>
+    <p>See file attached on Moodle.</p>
+    <h4>Video</h4>
+    <div class="fit-box">
+      <video class="fit_screen" src="https://github.com/RonnymonnyTheProgrammer/CMPT401/assets/80552918/a260821e-bfff-47e6-960b-ae3b94a87a28" controls="controls"></video>
     </div>
   </body>
 </html>
